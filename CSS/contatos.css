@@ -9,7 +9,7 @@ main {
 
 form {
     margin: 40px 0;   
-    background: linear-gradient(#888888, #1C1C1C);
+    
 }
 
 form label, form legend, form p {
@@ -54,7 +54,7 @@ form label, form legend, form p {
 
 table {
     margin: 20px 0 40px;
-    background: linear-gradient(#FEFEFE, #888888);
+    
 }
 
 thead, tfoot {
