@@ -1,0 +1,73 @@
+/* CSS ABA PRODUTOS*/
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;   
+    
+}
+.produtos .produtos-caixa {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #000000;
+}
+
+.produtos li:hover {
+    border-color: #c78c19;
+    border-width: 5px;
+}
+
+.produtos li:active  {
+    border-color: #088c19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+/*RESPONSIVIDADE DA TELA PRODUTOS*/
+
+@media screen and (max-width: 480px) {
+    main .produtos {
+        width: auto;
+        
+    }
+
+    h1 {
+        text-align: center;  
+    }
+
+    .produtos .produtos-caixa {
+        display: block;
+        text-align: center;
+        width: 80%;        
+        padding: 40px 20px;
+        margin: 40px auto ;
+        box-sizing: border-box;       
+
+    }
+    
+}
