@@ -12,16 +12,20 @@ header {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;   
+    
+}
+
+.produtos-caixa {
     background: #FEFEFE;
 }
+
 .produtos .produtos-caixa {
     display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
     padding: 30px 20px;
-    margin: 0 1.5%;
-    
+    margin: 0 1.5%;    
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
