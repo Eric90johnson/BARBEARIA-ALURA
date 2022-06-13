@@ -33,91 +33,94 @@
     </header>
 
     <main>
-        <form>
-            <div>
-                <label for="nome-sobrenome">Nome e sobrenome:</label>
-                <input type="text" id="nome-sobrenome" class="input-padrao" required placeholder="Digite seu nome">
+        <section class="formulario">
+            <form>
+                <div>
+                    <label for="nome-sobrenome">Nome e sobrenome:</label>
+                    <input type="text" id="nome-sobrenome" class="input-padrao" required placeholder="Digite seu nome">
 
-                <label for="e-mail">E-mail:</label>
-                <input type="email" id="e-mail" class="input-padrao" required placeholder="seuemail@dominio.com">
+                    <label for="e-mail">E-mail:</label>
+                    <input type="email" id="e-mail" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-                <label for="telefone">Telefone:</label>
-                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) x xxxx-xxxx">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) x xxxx-xxxx">
 
-                <label for="mensagem">Mensagem:</label>
-                <textarea cols="68" rows="10" id="mensagem" class="input-padrao" required placeholder="Digite sua mensagem aqui.."></textarea>
-            </div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea cols="68" rows="10" id="mensagem" class="input-padrao" required placeholder="Digite sua mensagem aqui.."></textarea>
+                </div>
 
-            <!-- Colocar essa imagem no fimdo projeto1
-            <div>
-                <img src="/imagens/barbearia-cadeira.jpg" id="imagem-cadeira">
-            </div>
-            -->
-            
-            <div>
-                <p>Como prefere nosso contato?</p>
-
-                <label for="raio-email"><input type="radio" name="contato" value="email" id="raio-email">Email</label>
+                <!-- Colocar essa imagem no fimdo projeto1
+                <div>
+                    <img src="/imagens/barbearia-cadeira.jpg" id="imagem-cadeira">
+                </div>
+                -->
                 
-                <label for="raio-telefone"><input type="radio" name="contato" value="telefone" id="raio-telefone"> Telefone</label>
-                
-                <label for="raio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="raio-whatsapp" checked> Whatsapp</label>
-                
-            </div>
+                <div>
+                    <p>Como prefere nosso contato?</p>
 
-            <fieldset>
-                <legend>Qual horário prefere ser atendido?</p>
-                <select>
-                    <option>Manhã</option>
-                    <option>Tarde</option>
-                    <option>Noite</option>
-                </select>
-            </fieldset>
-            
-            <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por e-mail?</label>            
-
-            <input type="submit" value="Enviar formulário" class="enviar">
-        </form>
-
-        <table>            
-            <thead>
-                <tr>
-                    <th  colspan="2">HORÁRIO DE FUNCIONAMENTO</td> <!--é equivalente a essa tag <td class="">Dia</td> -->
+                    <label for="raio-email"><input type="radio" name="contato" value="email" id="raio-email">Email</label>
                     
-                </tr>
-            </thead>
-            <thead>
-                <tr>
-                    <th class="">Dia</th> <!--é equivalente a essa tag <td class="">Dia</td> -->
-                    <th>Horário</th> <!--é equivalente a essa tag <td class="">Dia</td> -->
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Segunda</td>
-                    <td>8h as 20h</td>
-                </tr>
-                <tr>
-                    <td>Quarta</td>
-                    <td>8h as 20h</td>
-                </tr>
-                <tr>
-                    <td>Sexta</td>
-                    <td>8h as 20h</td>
-                </tr>
-
-                
-            </tbody>
-
-            <tfoot>
-                <tr>
-                    <th colspan="2">Agradecemos a preferência!</th> <!--é equivalente a essa tag <td class="">Dia</td> -->
+                    <label for="raio-telefone"><input type="radio" name="contato" value="telefone" id="raio-telefone"> Telefone</label>
                     
-                </tr>
-            </tfoot>
+                    <label for="raio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="raio-whatsapp" checked> Whatsapp</label>
+                    
+                </div>
 
-        </table>
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+                
+                <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por e-mail?</label>            
 
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+        </section>
+
+        <section class="tabela">
+            <table>            
+                <thead>
+                    <tr>
+                        <th  colspan="2">HORÁRIO DE FUNCIONAMENTO</td> <!--é equivalente a essa tag <td class="">Dia</td> -->
+                        
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th class="">Dia</th> <!--é equivalente a essa tag <td class="">Dia</td> -->
+                        <th>Horário</th> <!--é equivalente a essa tag <td class="">Dia</td> -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h as 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h as 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h as 20h</td>
+                    </tr>
+
+                    
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th colspan="2">Agradecemos a preferência!</th> <!--é equivalente a essa tag <td class="">Dia</td> -->
+                        
+                    </tr>
+                </tfoot>
+
+            </table>
+        </section>
     </main>
 
     <footer>
