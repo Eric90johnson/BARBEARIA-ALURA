@@ -15,11 +15,8 @@ header {
     
 }
 
-.produtos-caixa {
-    background: #FEFEFE;
-}
-
 .produtos .produtos-caixa {
+    background: #FEFEFE;
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -29,8 +26,7 @@ header {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
-    box-shadow: 10px 10px 30px #000000;
-   
+    box-shadow: 10px 10px 30px #000000;   
 }
 
 .produtos li:hover {
