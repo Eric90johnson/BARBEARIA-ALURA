@@ -1,9 +1,12 @@
 /* Css dos contatos*/
 
 main {
-    background: #fefefe;
-    margin: 0 0 0 60px;
     
+    margin: 0 0 0 60px;    
+}
+
+.formulario {
+    background: #fefefe;
 }
 
 form {
@@ -49,9 +52,10 @@ form label, form legend, form p {
 }
 
 /* Css da tabela */
-
-table {
+.tabela {
     background: linear-gradient(#888888, #1C1C1C);
+}
+table {    
     margin: 20px 0 40px;
     
 }
