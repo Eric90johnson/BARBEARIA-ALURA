@@ -1,15 +1,13 @@
 /* Css dos contatos*/
 
-
-
 main {
+    background: #fefefe;
     margin: 0 0 0 60px;
     
 }
 
 form {
-    margin: 40px 0;   
-    
+    margin: 40px 0;       
 }
 
 form label, form legend, form p {
@@ -53,6 +51,7 @@ form label, form legend, form p {
 /* Css da tabela */
 
 table {
+    background: linear-gradient(#888888, #1C1C1C);
     margin: 20px 0 40px;
     
 }
