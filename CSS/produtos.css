@@ -1,7 +1,11 @@
 /* CSS ABA PRODUTOS*/
+
+.degrade {
+    background: linear-gradient(#FEFEFE, #888888, #1C1C1C);
+}
+
 header {
-    background: #bbbbbb;
-    
+    background: #bbbbbb;    
     
 }
 .produtos{
